@@ -1,0 +1,17 @@
+set(YOJIMBO_SOURCES
+    yojimbo_connection.cpp
+    yojimbo.cpp
+    yojimbo_network_simulator.cpp
+    yojimbo_address.cpp
+    yojimbo_platform.cpp
+    yojimbo_allocator.cpp
+    yojimbo_reliable_ordered_channel.cpp
+    yojimbo_base_client.cpp
+    yojimbo_server.cpp
+    yojimbo_base_server.cpp
+    yojimbo_unreliable_unordered_channel.cpp
+    yojimbo_channel.cpp
+    yojimbo_utils.cpp
+    yojimbo_client.cpp
+    PARENT_SCOPE
+)

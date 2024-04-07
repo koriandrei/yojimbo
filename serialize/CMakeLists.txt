@@ -1,0 +1,2 @@
+add_library(Yojimbo_serialize INTERFACE)
+target_include_directories(Yojimbo_serialize INTERFACE .)
